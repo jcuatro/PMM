@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE3_PMM</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div id="botones_navegacion">
+        <button id="volver" type="button">Volver</button>
+        <button id="siguiente" type="button">Siguiente</button>
+    </div>
+
+    <div id="pasoUno">
+        <h1 id = "titulo">Si lees esto algo no ha funcionado</h1>
+        <p id = "texto">Aqui lo mismo que antes</p>
+    </div>
+
+    <div id="error"></div>
+
+    <br>
+        <label for="url">Introduce una URL<input type="text" id="url"></label>
+
+
+
+    <form id="form" action="" method="get">
+        <div>
+            <label for="nombre">Nombre y Apellidos<input id="nombre" type="text" required /></label>
+
+        </div>
+        <div >
+            <label for="fecha">Fecha Nacimiento <input id="fecha" type="date" required/></label>
+
+        </div>
+        <div >
+            <label for="direccion">Direccion<input id="direccion" type="text" /></label>
+
+        </div>
+        <div >
+            <label for="codpost">Codigo Postal<input id="codpost" type="number" required/></label>
+        </div>
+
+        <div>
+            <label for="provincia">Provincia
+                <select id="provincia">
+                    <option>Valencia</option>
+                    <option>Castellon</option>
+                    <option>Alicante</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for="municipio">Municipio<input type="text" id="municipio" name="municipio"  required/></label>
+        </div>
+    </form>
+
+    <div id="datos"></div>
+
+    <button id="terminar" type="button">Terminar</button>
+    
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
