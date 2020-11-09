@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+
+#error{
+    background-color: grey;
+    color: rgb(250, 96, 96);
+    border: red solid;
+    border-radius: 1px;
+}
+
+#pasoUno{
+    display: block;
+    text-align: center;
+}
+
+#botones_navegacion :hover{
+    background-color: orange;
+    color: white;
+}
+
+#volver{
+    float: left;
+    background-color:  blue;
+    color: white;
+    border-radius: 3px;
+}
+
+#siguiente{
+    float: right;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
